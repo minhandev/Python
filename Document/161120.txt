@@ -1,0 +1,32 @@
+2: File<161120.py>
+	>> Biểu thức <BOOL>
+	>> Biểu thức <IF>
+		if Condition :
+			block
+	>> Biểu thức <PASS>
+		Để trống
+		if condition: 
+			pass
+		else: 
+			pass
+	>> So sánh số thực
+		So sánh sai số <DIFF>
+			x = 1.11 - 1.10
+			y = 2.11 - 2.10
+			print('x', x , " ", "y", y )
+			diff = x-y
+			if diff < 0:
+				diff = - diff
+			if diff < 0.0000001:
+				print("diff < 0.0000001:")
+			else:
+				print("!=")
+		Ghi chú: ngưỡng sai số cho phép
+	>> Sử dụng if else như phép gán
+			x = 2 
+			y = 3
+			if x != y:
+				c = 113
+			else:
+				c = 115
+			print(c)
