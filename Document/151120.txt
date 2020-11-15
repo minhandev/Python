@@ -1,0 +1,51 @@
+1: 151120 <file: 151120.py>
+	>> Kiểu dữ liệu:
+		- Kiểu <INT>: Số nguyên
+		- Kiểu <FLOAT>: Số thực 
+		- Kiểu <COMPLEX>: Số phức z = 2+3j
+			Vd: COMPLEX(2,3) thì 2 là thực, 3 là ảo
+		- Kiểu <STR>: chuỗi
+		- Kiểu <BOOL>: True, False
+	>> Khai báo biến:
+		- Khai báo, không cần khai báo tự hiểu
+			Vd: x = 5 
+			 -Kiểm tra loại dữ liệu sử dụng <TYPE()>
+				Vd: type(x) 
+	>> Cách xoá biến:
+		- <DEL>
+			Vd: del x
+	>> Kiểm tra vùng dữ liệu
+		- Thêm thư viện: <import sys>
+				Vd: Kiểm tra kiểu <INT>
+				print(sys.int_info)
+				
+	>> Toán tử
+		- Toán tử số học:
+			< + - * / >
+			- Phép chia: </>: Chia lấy lẻ
+				Vd: 9/2 => 4.5
+			- Chia lấy phần nguyên: < // >
+				Vd: 9//2 => 4
+	>> Nhập từ bàn phím:
+		- Sử dụng <INPUT> 
+			Vd: x = input() tuy nhiên print(type(x)) => str
+				Ép kiểu: x = int(input()) "Tương tự"
+		-Đưa về kiểu <BOOL>:
+				def strBool(s):
+				return s.lower() in ("true", "t", "1", "yes")
+
+					print("Nhap bool")
+					x = strBool(input())
+					print(x)
+	>> Kiểu xuất dữ liệu:
+		-Print('#' * 15) => Xuất 15 lần #
+		- print('{0} {1}'.format(7, 10**7))
+			Gán 0:1
+	>> Loại lỗi python
+		3 loại:
+			- Cú pháp: 
+				* 
+			- thực thi
+			- nghiệp vụ
+		
+			
